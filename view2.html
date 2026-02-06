@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <title>Document</title>
+    <link rel="stylesheet" href="./Home.css">
+    <style>
+        .profile{
+            margin-top: 10%;
+            margin-left: 30%;
+        }
+          .back{
+        display: inline-block;
+    background:#1F2B6C;
+    color:white;
+    border:none;
+    padding:8px 25px;
+    border-radius:20px;
+    cursor:pointer;
+    margin-top: 3%;
+    text-decoration: none;
+    margin-bottom: 4%;
+   
+        }
+
+        footer {
+    background-color: #2c387e; /* midabka footer-ka */
+    color: #fff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-logo h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-newsletter .newsletter-box {
+    display: flex;
+    gap: 5px;
+}
+
+.footer-newsletter input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.footer-newsletter button {
+    background-color: #4c5bd4;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.footer-newsletter button i {
+    font-size: 16px;
+}
+
+footer hr {
+    border: 0.5px solid #fff;
+    margin: 20px 0;
+    opacity: 0.3;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.footer-bottom .social-icons a {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-bottom .social-icons a:hover {
+    color: #4c5bd4;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .profile{
+        margin-left: 8%;
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-newsletter .newsletter-box {
+        flex-direction: column;
+    }
+
+    .footer-newsletter button {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+    </style>
+</head>
+<body>
+      <header>
+        <div class="container">
+            <nav>
+                <div class="logo">MED<span >DICAL</span></div>
+                <div class="burger">
+    <i class="fa-solid fa-bars open"></i>
+    <i class="fa-solid fa-xmark close"></i>
+</div>
+
+                <div class="nav_bar">
+                   
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="" class="btn_regester">Resgester</a></li>
+                    </ul>
+                </div>
+                
+
+            </nav>
+        </div>
+
+    </header>
+    <div class="profile">
+        <h1>Born in: New York, USA</h1>
+        <h3>Education: Johns Hopkins University – Neurosurgery</h3>
+        <h3>Experience: 10 years</h3>
+        <h3>Hospital: London Heart Center</h3>
+        <h3>Languages: English, Spanish</h3>
+        <p>Special Skills: Brain tumor surgery, spinal surgery </p>
+        <p>Working Hours: Mon – Sat (10:00 AM – 6:00 PM)</p>
+        <h2>Email: emily.carter@medical.com</h2>
+        <h2>Phone: +1 202 555 0182</h2>
+        <a class="back" href="index.html">Back</a>
+    </div>
+    <footer>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <h2>MEDDICAL</h2>
+            <p>Leading the Way in Medical Excellence, Trusted Care.</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Important Links</h3>
+            <ul>
+                <li><a href="#">Appointment</a></li>
+                <li><a href="#">Doctors</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Call: (237) 681-812-255</p>
+            <p>Email: fildineesoe@gmail.com</p>
+            <p>Address: 0123 Some place</p>
+            <p>Some country</p>
+        </div>
+
+        <div class="footer-newsletter">
+            <h3>Newsletter</h3>
+            <div class="newsletter-box">
+                <input type="email" placeholder="Enter your email address">
+                <button><i class="fa fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="footer-bottom">
+        <p>© 2026 MEDDICAL </p>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

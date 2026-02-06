@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.services{
+    padding: 40px;
+    background: #fff;
+   
+}
+.services_box{
+    margin-left: 17%;
+    margin-top: 10%; 
+}
+
+.services h5{
+    text-align: center;
+    color: #1f3c88;
+    letter-spacing: 2px;
+    margin-left: -30%;
+}
+
+.services h2{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: -30%;
+}
+
+.services-box{
+    display: flex;
+    gap: 20px;
+}
+
+/* Left menu */
+.menu{
+    width: 7%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu button{
+    padding: 25px 0px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+}
+
+.menu .active{
+    background: #1f3c88;
+    color: #fff;
+}
+
+.menu .view{
+    background: #1f3c88;
+    color: #fff;
+    
+    padding: 10px 10px;
+}
+
+/* Center content */
+.content{
+    width: 45%;
+    margin-top: 5%;
+}
+
+.content h3{
+    margin-bottom: 15px;
+}
+
+.content ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 15px;
+}
+
+.content ul li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+/* Right images */
+.images{
+    width: 15%;
+    margin-top: 1%;
+}
+
+.images img{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
